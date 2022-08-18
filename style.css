@@ -1,0 +1,63 @@
+
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-size: 100%;
+    display: grid;
+    grid-template-rows: 5em  repeat(7, 12.5em);
+    grid-template-columns: auto;
+    grid-template-areas: "header"
+                          "hero"
+                          "service"
+                          "about"
+                          "app"
+                          "custormer"
+                          "latest"
+                          "footer";                       
+}
+
+#header{
+
+    grid-area: header;
+}
+
+.hero{
+
+    grid-area: hero;
+}
+
+.service{
+
+    grid-area: service;
+}
+
+.about{
+
+    grid-area: about;
+}
+
+.app{
+
+    grid-area: app;
+}
+
+.customer{
+
+    grid-area: customer;
+}
+
+.latest{
+
+    grid-area: latest;
+}
+
+footer{
+
+    grid-area: footer;
+}
