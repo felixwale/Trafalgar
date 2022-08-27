@@ -85,12 +85,23 @@ gap: 2.3em;
 .nav ul li{
     align-self: center;
     list-style-type: none; 
-  
+
 }
+
+
 
 .nav ul li a{
     text-decoration: none;
     flex: 1 1 auto;
+    transition-property:  color, font-family;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.nav a:hover{
+
+    color: darkred;
+    font-family: cursive;
 }
 .hero{
 
@@ -443,6 +454,7 @@ font-weight: 700;
 .latest-img img{
 
     border-radius: 3%;
+  
 }
 
 .latest-img{
@@ -454,7 +466,9 @@ font-weight: 700;
         text-align: center;
         align-self: center; 
         margin: 0 0.5em;
+       
 }
+
 
  .latest-cnt h5{
 
@@ -521,6 +535,15 @@ font-family: Mulish;
         padding: 0.56em 1.875em;
         color: #458FF6;
         width: 12.5em;
+        transition-property: background-color, color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+}
+
+.latest-btn a:hover{
+
+    background-color: aqua;
+    color: darkorange;
 }
 
 footer{
@@ -528,7 +551,7 @@ footer{
     max-width: 100%;
     grid-area: footer;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
-     max-height:  27.18em;
+     max-height:  45.18em;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -605,8 +628,8 @@ footer ul li a{
 @media screen and (max-width: 375px) {
 
     .nav {
-    
-            display: none;
+
+    display: none;
         }
 
     
@@ -614,33 +637,101 @@ footer ul li a{
    .ham-icon{
 
     display: inline-block;
-   }
+}
 
-   .hamB ul{
+
+
+   /* .hamB ul{
 
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 
-   }
+   } */
 
  .header{
 
-    display: flex;
-    justify-content: space-between;
+ display: flex;
+    justify-content: space-evenly;
     align-items: center;
-} 
+    text-align: center;
+}
 
 .hero{
 
-    justify-self: center;
-        align-self: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+display: inline;
+  
+ 
 }
 
+.hero-txt{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.hero-txt h1{
+font-size: 3em;
+max-width: 6em;
+font-weight: 600;
+flex: 1 0 auto;
+}
+
+.hero-txt p{
+
+    max-width: 10em;
+    font-size: 0.5;
+
+
+}
+
+
+.srv-grid{
+
+    display: block;
+    text-align: center;
+}
+
+
+.about{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.app{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.custormer1{
+
+    display: block;
+    text-align: center;
+}
+
+.latest-flex{
+
+    display: block;
+}
+
+footer{
+
+    display: block;
+}
+
+/* 
 .srv-img{
 
     display: none;
@@ -662,23 +753,18 @@ footer ul li a{
 
 
 .btn-2{
-
+  
     align-self: center;
 }
- 
+
 .app{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+ */
 
-.custormer1{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
 

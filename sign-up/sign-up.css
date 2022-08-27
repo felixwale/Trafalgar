@@ -1,0 +1,162 @@
+*{
+
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+font-family: 'Roboto';
+    font-style: normal;
+    display: flex;
+}
+
+
+.form-hero{
+
+    background: #5B9BF3;
+    color: #fff;
+    flex: 50%;
+}
+
+.form-hero h1{
+
+        font-weight: 700;
+        font-size: 4em;
+        line-height: 75px;
+      
+}
+
+.form-hero p{
+
+    font-weight: 400;
+        font-size: 1.5em;
+        line-height: 28px;
+      
+}
+
+.form-hero img{
+
+    max-width: 100%;
+}
+
+
+.form-cnt{
+
+    flex: 50%;
+}
+
+.form-cnt p{
+font-family: 'Roboto';
+    font-style: normal;
+font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.form-others{
+
+    text-align: center;
+}
+
+.form-cnt h2{
+
+    font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4em;
+        line-height: 85px;
+}
+
+.sign-txt{
+
+   color: #0B773C;
+}
+
+.ext-link{
+
+    display: flex;
+    justify-content: center;
+    border: 1px solid #E0DADA;
+        border-radius: 10px;
+  
+}
+
+.external{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ext-txt{
+
+    align-self: center;
+    font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+}
+
+
+  .line1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.line {
+
+border: 1px solid #5B9BF3;
+flex: 0 1 100px;
+}
+
+.spn-txt{
+
+font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+form input{
+
+    background: rgba(253, 253, 253, 0.5);
+        border: 1px solid #EDEDED;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+
+        display: block;
+        width: 422px;
+            height: 64px;
+          margin: 10px 0;
+        
+}
+
+
+.main-form{
+
+   display: flex;
+   justify-content: center;
+   align-items: stretch;
+}
+
+.submit{
+    
+    margin-top: 30px;
+    background: #5B9BF3;
+        border-radius: 10px;
+        font-weight: 700;
+            font-size: 20px;
+            /* line-height: 33px; */
+            color: #fff;
+            transition-property: background-color;
+                transition-duration: 0.2s;
+                transition-timing-function: ease-in;
+}
+
+.submit:hover{
+
+    background-color: aqua;
+}
+
+
