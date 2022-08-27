@@ -1,1 +1,1 @@
-# Setting up my project layout. I decided to use flexible grid for my layout to achieved a flexible layout design.
+ Setting up my project layout. I decided to use flexible grid for my layout to achieved a flexible layout design.
