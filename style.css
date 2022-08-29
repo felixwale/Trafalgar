@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* ----------------------------GRID CONTAINER-------------------------- */
 #main-container{
     
     font-size: 100%;
@@ -27,7 +27,7 @@
 
     
 }
-
+/* --------------------------BODY ICONS------------------- */
 .body-logo1{
 
     position: absolute;
@@ -73,6 +73,7 @@
     z-index: 0;
 }
 
+/* -------------------------MAIN GRID MARGIN------------ */
 .main{
 
     margin: 2.87em 2.87em 0;
@@ -83,7 +84,7 @@ img{
     max-width: 100%;
 }
 
-
+/* ----------------------------HEADER  SECTION------------------ */
 .header{
 
     grid-area: header;
@@ -148,6 +149,8 @@ gap: 2.3em;
     color: darkred;
     font-family: cursive;
 }
+
+/* -------------------------------------HERO SECTION--------------------- */
 .hero{
 
     grid-area: hero;
@@ -205,8 +208,7 @@ gap: 2.3em;
     max-width: 100%;
 }
 
-
-
+/* ------------------------------------------SERVICES SECTION----------------------------- */
 .service{
 
     grid-area: service;
@@ -249,6 +251,7 @@ z-index: -1;
     color: #458FF6;  
 }
 
+/* -------------------------------SERVICE GRID--------------- */
 .srv-grid{
 
     display: grid;
@@ -310,6 +313,8 @@ hr{
    max-width: 4em;
     border: 2px solid black;
 }
+
+/* ---------------------------------------------------ABOUT SECTION------------------------- */
 .about{
 
     grid-area: about;
@@ -353,6 +358,9 @@ font-weight: 700;
 
    max-width: 100%;
 }
+
+
+/* -----------------------------------------------APP SECTION------------------------------------ */
 .app{
 
     grid-area: app;
@@ -372,8 +380,6 @@ font-weight: 700;
     align-self: center;
    
 }
-
-
 
 .app-txt h2{
 
@@ -396,6 +402,7 @@ font-weight: 700;
     max-width: 100%;
 }
 
+/* -------------------------------------------------------------CUSTORMER SECTION------------------------------- */
 .custormer{
 
     z-index: 1;
@@ -422,7 +429,6 @@ font-weight: 700;
     justify-content: center;
     align-items: center;
     
-
 }
 
 .cus-img{
@@ -476,6 +482,7 @@ font-weight: 700;
 }
 
 
+/* ------------------------------------------------------------LATEST SECTION----------------------------- */
 .latest{
 
     grid-area: latest;
@@ -590,8 +597,9 @@ font-family: Mulish;
       display: flex;
       /* justify-content: center;
       align-items: center;
-      text-align: center; */
+      text-align: center; 
 }
+*/
 .read-more{
 
     display: flex;
@@ -631,6 +639,8 @@ font-family: Mulish;
     background-color: aqua;
     color: darkorange;
 }
+
+/* ------------------------------------------------------------FOOTER SECTION---------------------------------------- */
 
 footer{
     
@@ -696,6 +706,7 @@ footer ul li a{
 }
 
 
+/* ----------------------------------------------------MEDIA QUERY 840PX----------------------------- */
 @media screen and (max-width: 840px) {
     
     .custormer1 {
@@ -710,7 +721,7 @@ footer ul li a{
         }
 }
 
-
+/* -----------------------------------------------------MEDIA QUERY 786PX---------------------------------- */
 @media screen and (max-width: 786px) {
     .ham-icon{
         display: block;
@@ -751,7 +762,7 @@ footer ul li a{
     }
 }  
 
-
+/* -----------------------------------------------------------MEDIA QUERY 581PX-------------------------- */
 @media screen  and (max-width: 581px) {
     
 
@@ -794,6 +805,9 @@ footer ul li a{
 
    }
 }
+
+
+/* ----------------------------------------------MEDIA QUERY 600PX -------------------------------- */
 
 @media screen and (max-width: 600px) {
     
@@ -853,6 +867,8 @@ footer ul li a{
   } */
 }
 
+
+/* -------------------------------------------------------MEDIA QUERY 506PX------------------------------------- */
 @media screen and (max-width: 506px) {
     
 .srv-grid {
@@ -898,8 +914,7 @@ footer ul li a{
   }
 }
 
-
-
+/* -------------------------------------------------------------MEDIA QUERY 375PX----------------------------- */
 @media screen and (max-width: 375px) {
 
     .nav {
@@ -1076,8 +1091,5 @@ footer{
     align-items: center;
 }
  */
-
-
-
 
 }    
