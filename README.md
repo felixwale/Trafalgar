@@ -1,8 +1,7 @@
 
-![TRAFALGAR LOGO](/Asset/Logo.svg)
-
 # TRAFALGAR : A Virtual Healthcare Platform
 
+![TRAFALGARLOGO](/Asset/Logo.svg)
 
 ## ABOUT THE PROJECT
 
@@ -42,4 +41,3 @@ accessible on mobile and online for everyone
 # APPRECIATION
 
 ** To GOD be the glory for the completion of this project. And @grazac Academy thanks for providing this platform for me to learn my dream course.
-
