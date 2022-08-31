@@ -7,6 +7,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
     rel="stylesheet">
+    <script src="sign-up.js"></script>
     <link rel="stylesheet" href="sign-up.css">
     <title>Sign-Up Page</title>
 </head>
@@ -34,17 +35,26 @@
      </div>
 </div>
      <div class="main-form" >
-        <form action="" method="get">
+        <form action="" method="get" id="form">
+          <div class="form-control">
             <label for="txtName">Name</label>
-            <input type="text" id="txtName" placeholder="Name">
-            <label for="txtEmail">Email</label>
-            <input type="email" id="txtEmail" placeholder="Email">
-            <label for="pwd">Paasword</label>
-            <input type="password" id="pwd" placeholder="Paasword">
-            <input type="submit" value="Create" class="submit">
+            <input type="text" id="txtName" placeholder="Name" class="name">
+            <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+            <label for="loginEmail">Email</label>
+            <input type="email" placeholder="Email"  class="email" id="loginEmail">
+            <small>Error message</small>
+            </div>
+
+            <label for="loginPassword">Paasword</label>
+            <input type="password" id="loginPassword" placeholder="Paasword" class="password" >
+            <input type="submit" value="Create" class="submit" id="login">
         </form>
      </div>
     </section>
    </div>
+  
 </body>
 </html>

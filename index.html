@@ -8,7 +8,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
-        <script src="index.js"></script>
+  
     <title>Trafalgar</title>
 </head>
 <body>
@@ -23,18 +23,18 @@
     <div id="main-container">
         <!----------------------------------------------------HEADER SECTION-------------------------------------------->
     <header class="header head main" id="header-sec">
-        <img src="Asset/Logo.svg" alt="">
-            <div class="topnav topNav-2" id="myTopNav">
-                
-            <a href="#home" class="active home-link">Home</a>
-            <a href="#Find a doctor" class="home-link1">Find a doctor</a>
-            <a href="#Apps" class="home-link1">Apps</a>
-            <a href="#Testimonials" class="home-link1">Testimonials</a>
-            <a href="#About us" class="home-link1">About us</a>
-            </div>
-
-            <a href="" class="icon" click="myFunction()">&#9776</a>
-            <a href="" class="icon2">&times;</a>
+     <div class="logo" id="logo-1" > <img src="Asset/Logo.svg" alt=""> </div>
+     <div class="nav-link " id="nav-link">
+       <a href="" class="home">Home</a>
+       <a href="" class="home-2">Find a doctor</a>
+       <a href="" class="home-2">Apps</a>
+       <a href="" class="home-2">Testimonials</a>
+       <a href="" class="home-2">About us</a>
+     </div>
+     
+      <div class="hamburger icon" id="hamburger-1">&#9776</div>
+      <div class="cross" id="cross-1">&times;</div>
+    
     </header>
     <!--------------------------------------------------------HERO SECTION---------------------------------------------------------->
     <section class="hero main">
@@ -166,7 +166,7 @@
     <section class="custormer main">
         <div class="custormer-bg">
         <h2>What our customer are saying</h2>
-        <hr>
+        <span class="cus-line"><hr></span>
         <div class="custormer1 custormer2  mian">
          <figure class="cus-img">
             <img src="Asset/Customer.jpg" alt="">
@@ -201,7 +201,7 @@
           <p>In this case, the role of the health laboratory is very important to do
             a disease detection...</p>
 
-         <a href="#">Read more <img src="Asset/pointer.svg" alt=""></a>
+         <a href="#" class="read">Read more</a> <img src="Asset/pointer.svg" alt="">
         </div>
         </div>
         <div class="latest-img">
@@ -210,7 +210,7 @@
               <h5>Herbal medicines that are
             safe for consumption</h5>
               <p>Herbal medicine is very widely used at this time because of its very good for your health...</p>
-                 <a href="#">Read more <img src="Asset/pointer.svg" alt=""></a>
+                 <a href="#" class="read">Read more </a><img src="Asset/pointer.svg" alt="">
         </div>
         </div>
         <div class="latest-img">
@@ -220,7 +220,7 @@
         facial skin</h5>
         <p>A healthy lifestyle should start from now and also for your skin health.
         There are some...</p>
-        <a href="#">Read more <img src="Asset/pointer.svg" alt=""></a>
+        <a href="#" class="read">Read more</a> <img src="Asset/pointer.svg" alt="">
         </div>
         </div>
         </div>
@@ -273,5 +273,6 @@
         </div>
     </footer>
     </div>
+        <script src="script.js"></script>
 </body>
 </html>
