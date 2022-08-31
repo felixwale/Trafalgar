@@ -760,6 +760,11 @@ footer ul li a{
     list-style-type: none;
 }
 
+.footer-list{
+
+    
+}
+
 
 /* ----------------------------------------------------MEDIA QUERY 840PX----------------------------- */
 @media screen and (max-width: 840px) {
@@ -870,7 +875,7 @@ right: 0;
    }
 
    
-
+/* 
 
     .active {
     
@@ -897,6 +902,50 @@ right: 0;
         color: black;
     }
      
+
+        .icon {
+    
+            display: block;
+            font-size: 50px;
+            text-decoration: none;
+            color: black;
+            z-index: 1;
+        }
+    
+    
+    
+        .cross {
+    
+            display: none;
+            font-size: 75px;
+            position: absolute;
+            right: 0;
+            margin-right: 55px;
+    
+        }
+    
+        .nav-link {
+    
+            display: none;
+            flex-direction: column;
+            background-color: #458FF6;
+            min-width: 50vw;
+            min-height: 50vh;
+            gap: 10em;
+            position: fixed;
+            top: 8vh;
+            right: 0;
+        }
+    
+        .open-nav {
+    
+            display: flex;
+            flex-direction: column;
+            background-color: #458FF6;
+            min-width: 50vw;
+            min-height: 50vh;
+            gap: 10em;
+        } */
 
         .about {
     
@@ -1006,6 +1055,24 @@ right: 0;
 
 @media screen and (max-width: 600px) {
     
+.active {
+
+        display: block;
+    }
+
+    .hide-navbar-toggle {
+
+        display: none;
+    }
+
+    .logo-incative {
+
+        display: none;
+    }
+
+
+
+
   .hero{
 
     display: block;
