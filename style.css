@@ -976,6 +976,14 @@ right: 0;
     align-items: center;
     text-align: center;
    }
+
+
+
+   .header{
+
+    display: flex;
+    justify-content: space-around;
+   }
 /* 
 
     .active {
