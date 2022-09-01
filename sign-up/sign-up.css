@@ -164,6 +164,11 @@ form input{
     background-color: aqua;
 }
 
+.small{
+
+    display: none;
+}
+
 
 @media screen  and (max-width: 600px){
  
